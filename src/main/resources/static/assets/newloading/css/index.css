@@ -1,0 +1,25 @@
+.b_con{
+	padding-top: 10px;
+	/* background-color: rgb(91,155,213); */
+	display: flex;
+}
+.b_con div{
+	/*border: 1px solid black;*/
+	width: 32%;
+	float: left;
+	height: 600px;
+	box-sizing:border-box;
+	border-top: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	border-left:1px solid #ffffff;
+}
+.b_con div:nth-child(1){
+	/* background-color: rgb(237,125,49); */
+}
+.b_con div:nth-child(2){
+	/* background-color: rgb(0,127,127); */
+	margin:0 2%;
+}
+.b_con div:nth-child(3){
+	background-color: rgb(112,173,71);
+}

@@ -1,0 +1,40 @@
+.lw {
+	width: 100px;
+}
+.my-form{
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+em{
+	color: red;
+	margin: 0 5px 0 5px;
+}
+.fm {
+	margin-right: 20%;
+}
+
+.bp {
+	position: relative;
+	top: -38px;
+	left: 604px;
+}
+
+.center {
+	text-align: center;
+}
+
+.lwp {
+	width: 130px;
+}
+
+.lwl {
+	width: 135px;
+}
+
+.model-div{
+	position: absolute; 
+	border: 1px solid #5FB878; 
+	width: 400px; 
+	height: 845px;
+}
