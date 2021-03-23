@@ -8,5 +8,6 @@ public class MyUtil {
 	public static final String PRO = "PRO";//工程
 	public static final String JCM = "JCM";//船舶装备模型
 	public static final String TM = "TM";//任务模型
+	public static final String PPM = "PPM";//车位管理
 	
 }

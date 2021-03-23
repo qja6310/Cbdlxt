@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
 import cn.com.newloading.bean.Hint;
@@ -28,6 +29,12 @@ public class BaseController {
 		json.put("retCode", hint.getCode());
 		json.put("retMsg", hint.getDescription());
 		return json;
+	}
+	
+	public static void main(String[] args) {
+        String s = "[{\"id\":1,\"gradSchoolName\":\"555\",\"gradSchoolType\":\"1\",\"gradSchoolTypeText\":\"综合类\",\"academic\":\"1\",\"academicText\":\"硕士研究生\",\"degree\":\"5555\",\"specialty\":\"5555\",\"gradCertNo\":\"555\",\"degreeNo\":\"55\",\"enterDate\":\"2020-10-01\",\"gradDate\":\"2020-10-28\",\"enterSchoolAge\":\"55\",\"enterSchoolAgeRemark\":\"555\",\"fileId\":\"\"}]";
+        JSONArray arr = JSONArray.parseArray(s);
+        System.out.println(arr.toArray());
 	}
 	
 }

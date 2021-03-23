@@ -24,7 +24,7 @@
 	}
 </style>
 </head>
-<body>
+<body style="background-color: #eeeeee;">
 	<div class="layui-layout layui-layout-admin">
 		<div class="layui-header">
 			<div class="layui-logo" style="font-size: 20px;font-weight: 700;margin-left: 50px;">船舶装备综合质量评估</div>
